@@ -1,0 +1,125 @@
+﻿<!doctype>
+<html lang="en">
+<head>
+    <title>
+        E-Waste
+    </title>
+    <style>
+    .auto-style6 {
+        text-align: left;
+        font-size: medium;
+    }
+        </style>
+
+    <style>
+        ul {
+  text-align: center; /* center the list items horizontally */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+ 
+  display: inline-block; /* display list items as inline-block elements */
+  float: none; /* remove the float property */
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+        .auto-style6 {
+            height:150px;
+          
+        }
+        .auto-style1 {
+            width: 1024px;
+           
+         
+            background-color: #ffffff;
+          text-align: center;
+          /*border-block-style: dashed;*/
+          
+        
+/* box-shadow: 5px 10px 8px 10px #888888;*/
+        }
+     
+        .auto-style3 {
+            width: 1024px;
+            height: 150px;
+            text-align: center;
+        }
+        body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+     
+        .auto-style7 {
+            width: 1024px;
+            height: 150px;
+        }
+     
+    </style>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1098.0" data-gr-ext-installed="">
+
+<form method="post" id="form1">
+    <table class="auto-style1" style="text-align: center; height: 230px;">
+        <tbody>
+        <tr>
+            <td class="auto-style6">
+
+                <img alt="" class="auto-style7" src="~/img2/1back.jpg">
+            </td>
+        </tr>
+        <tr class="auto-style1">
+            <td class="auto-style1">
+                <ul>
+                    <li>
+                        <a class="active" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">E-Waste Info</a>
+                    </li>
+                    <li>
+                        <a href="#">Local Statistics</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                @RenderBody()
+
+            </td>
+        </tr>
+
+        </tbody>
+    </table>
+    
+    <img alt="" class="auto-style3" src="~/img2/2back.jpg"><br>
+</form>
+</body>
+</html>
